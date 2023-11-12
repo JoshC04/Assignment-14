@@ -1,4 +1,4 @@
-const epxress = require("express");
+const express = require("express");
 const app = express();
 const Joi = require("joi");
 const multer = require("multer");
