@@ -16,3 +16,9 @@ li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.movie-section {
+  background-color: #5eb299;
+  padding: 5px;
+  border-radius: 5px;
+}
