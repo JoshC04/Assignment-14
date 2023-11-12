@@ -6,7 +6,7 @@ const getMovies = async () => {
   }
 };
 
-const showRecipes = async () => {
+const showMovies = async () => {
   let movies = await getMovies();
   let moviesDiv = document.getElementById("movies-list");
   moviesDiv.innerHTML = "";
