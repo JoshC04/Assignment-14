@@ -123,7 +123,9 @@ const validateMovie = (movie) => {
     director: Joi.string().min(3).required(),
   });
 
-  app.listen(3000, () => {
-    console.log("Listening on port 3000");
-  });
+  return schema.validate(movie);
 };
+
+app.listen(3000, () => {
+  console.log("Listening on port 3000");
+});
