@@ -1,0 +1,18 @@
+body {
+  background-color: #745a33;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  color: #fcf5bf;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
