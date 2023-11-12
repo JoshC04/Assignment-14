@@ -1,5 +1,3 @@
-const e = require("express");
-
 const getMovies = async () => {
   try {
     return (await fetch("api/movies")).json();
