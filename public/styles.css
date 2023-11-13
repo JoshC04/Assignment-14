@@ -49,6 +49,13 @@ a:hover {
   border-radius: 5px;
 }
 
+#movies-list {
+  width: 45%;
+}
+#movies-display {
+  width: 45%;
+}
+
 @media (min-width: 768px) {
   
   body {
