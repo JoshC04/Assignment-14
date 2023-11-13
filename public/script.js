@@ -1,6 +1,6 @@
 const getMovies = async () => {
   try {
-    return (await fetch("api/movies")).json();
+    return (await fetch("api/movies/")).json();
   } catch (error) {
     console.log(error);
   }
@@ -112,7 +112,7 @@ const addOrEditMovie = async (e) => {
     });
   }
 
-  if (response.statuc != 200) {
+  if (response.status != 200) {
     console.log("Error adding movie");
   }
 
