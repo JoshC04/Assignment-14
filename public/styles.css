@@ -125,4 +125,9 @@ a:hover {
     top: 8;
     right: 10px;
   }
+
+  #actors {
+    display: flex;
+    flex-direction: column;
+  }
 }
