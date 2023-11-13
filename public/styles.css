@@ -23,6 +23,13 @@ li {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+a {
+  list-style-type: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
 .movie-section {
   margin-top: 5px;
   background-color: #CFCA4C;
