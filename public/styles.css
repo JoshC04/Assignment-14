@@ -28,3 +28,17 @@ li {
   padding: 5px;
   border-radius: 5px;
 }
+
+@media (min-width: 768px) {
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+  }
+}
