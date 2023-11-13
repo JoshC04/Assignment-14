@@ -2,6 +2,12 @@ body {
   background-color: #745a33;
 }
 
+#movies-list {
+  background-color: #9FE5C2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .hidden {
   display: none;
 }
@@ -18,7 +24,7 @@ li {
 }
 
 .movie-section {
-  background-color: #5eb299;
+  background-color: #CFCA4C;
   padding: 5px;
   border-radius: 5px;
 }
