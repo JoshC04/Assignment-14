@@ -108,7 +108,7 @@ const addOrEditMovie = async (e) => {
 
     response = await fetch("/api/movies", {
       method: "POST",
-      body: formData,
+      body: formData
     });
   }
 
