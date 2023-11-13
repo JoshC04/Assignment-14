@@ -30,7 +30,7 @@ const showMovies = async () => {
   });
 };
 
-const DisplayMovieDetails = (movie) => {
+const displayMovieDetails = (movie) => {
   const moviesDisplay = document.getElementById("movies-display");
   moviesDisplay.innerHTML = "";
 
