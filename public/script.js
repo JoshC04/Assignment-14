@@ -120,7 +120,7 @@ const addOrEditMovie = async (e) => {
 };
 
 const getActors = () => {
-  const inputs = document.querySelectorAll("#actors");
+  const inputs = document.querySelectorAll("#actors input");
   let actors = [];
 
   inputs.forEach((input) => {
