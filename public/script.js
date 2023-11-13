@@ -99,10 +99,7 @@ const addOrEditMovie = async (e) => {
   if (form._id.value == -1) {
     formData.delete("_id");
     formData.delete("image");
-    formData.delete("length");
-    formData.delete("year");
     formData.append("actors", getActors());
-    formData.delete("director");
 
     console.log(...formData);
 
