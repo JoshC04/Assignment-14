@@ -102,7 +102,7 @@ app.post("/api/movies", upload.single("image"), (req, res) => {
     _id: movies.length + 1,
     title: req.body.title,
     year: req.body.year,
-    image: req.file.fileName,
+    image: req.body.file,
     actors: req.body.actors.split(","),
     length: req.body.length,
     director: req.body.director
