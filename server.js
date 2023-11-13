@@ -74,7 +74,7 @@ let movies = [
     _id: 5,
     title: "Spider-Man: Across the Spiderverse",
     year: 2023,
-    image: "images/spiderverse.jpg",
+    image: "images/spiderman.webp",
     actors: [
       "Shameik Moore",
       "Hailee Steinfeld",
