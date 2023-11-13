@@ -5,6 +5,7 @@ body {
 img {
   max-width: 100px;
   max-height: fit-content;
+  border: 5px #CFCA4C;
 }
 
 #container {
@@ -28,6 +29,13 @@ img {
   background-color: #9FE5C2;
   padding: 10px;
   border-radius: 5px;
+}
+
+#clear-link {
+  color: #fcf5bf;
+}
+#edit-link {
+  color: #fcf5bf;
 }
 
 .hidden {
@@ -60,13 +68,6 @@ a:hover {
   border-radius: 5px;
 }
 
-#movies-list {
-  width: 45%;
-}
-#movies-display {
-  width: 45%;
-}
-
 @media (min-width: 768px) {
   
   body {
@@ -75,10 +76,32 @@ a:hover {
     align-items: center;
   }
 
+  #movies-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+  }
+  #movies-display {
+    width: 45%;
+  }  
+
   #container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+  }
+
+  #clear-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #edit-link {
+    position: absolute;
+    top: 0;
+    right: 10px;
   }
 }
