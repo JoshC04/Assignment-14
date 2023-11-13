@@ -12,6 +12,7 @@ const showMovies = async () => {
   moviesDiv.innerHTML = "";
   movies.forEach((movie) => {
     const section = document.createElement("section");
+    section.classList.add("movie-section");
     moviesDiv.appendChild(section);
 
     const a = document.createElement("a");
