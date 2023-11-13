@@ -105,7 +105,7 @@ app.post("/api/movies", upload.single("image"), (req, res) => {
     image: req.file.filename,
     actors: req.body.actors.split(","),
     length: req.body.length,
-    director: req.body.director,
+    director: req.body.director
   };
 
   movies.push(movie);
