@@ -39,9 +39,15 @@ img {
 }
 
 #addMovie {
+  margin-top: 10px;
   color: #fcf5bf;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#addMovie:hover {
+  background-color: #CFCA4C;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .close {
@@ -110,12 +116,12 @@ a:hover {
 
   #clear-link {
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 10;
+    right: 20px;
   }
   #edit-link {
     position: absolute;
-    top: 0;
+    top: 10;
     right: 10px;
   }
 }
