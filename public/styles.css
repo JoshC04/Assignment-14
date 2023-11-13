@@ -26,15 +26,19 @@ li {
 a {
   list-style-type: none;
 }
-a:hover {
-  font-weight: bold;
-}
 
 .movie-section {
   margin-top: 5px;
   background-color: #CFCA4C;
   padding: 5px;
   border-radius: 5px;
+}
+
+.movie-title {
+  
+}
+.movie-title:hover {
+  font-weight: bolder;
 }
 
 @media (min-width: 768px) {

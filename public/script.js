@@ -20,6 +20,7 @@ const showMovies = async () => {
     section.appendChild(a);
 
     const h3 = document.createElement("h3");
+    h3.classList.add("movie-title");
     h3.innerHTML = movie.title;
     a.appendChild(h3);
 
