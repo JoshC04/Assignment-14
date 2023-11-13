@@ -38,6 +38,16 @@ img {
   color: #fcf5bf;
 }
 
+#addMovie {
+  color: #fcf5bf;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.close {
+  color: #fcf5bf;
+}
+
 .hidden {
   display: none;
 }
