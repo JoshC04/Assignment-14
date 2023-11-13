@@ -92,7 +92,7 @@ const populateEditForm = (movie) => {};
 
 const addOrEditMovie = async (e) => {
   e.preventDefault();
-  const form = document.querySelector("#add-or-edit");
+  const form = document.getElementById("add-or-edit");
   const formData = new FormData(form);
   let response;
 
@@ -106,7 +106,7 @@ const addOrEditMovie = async (e) => {
 
     console.log(...formData);
 
-    response = await fetch("api/movies/", {
+    response = await fetch("/api/movies", {
       method: "POST",
       body: formData
     });
