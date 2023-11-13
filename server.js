@@ -18,7 +18,7 @@ let movies = [
     _id: 1,
     title: "Dungeons and Dragons: Honor Among Thieves",
     year: 2023,
-    image: "dnd.jpg",
+    image: "images/dnd.jpg",
     actors: [
       "Chris Pine",
       "Michelle Rodriguez",
@@ -32,7 +32,7 @@ let movies = [
     _id: 2,
     title: "Dune",
     year: 2021,
-    image: "dune.jpg",
+    image: "images/dune.jpg",
     actors: [
       "Timothée Chalamet",
       "Rebecca Ferguson",
@@ -46,7 +46,7 @@ let movies = [
     _id: 3,
     title: "How to Train Your Dragon: The Hidden World",
     year: 2019,
-    image: "httyd.jpg",
+    image: "images/httyd.jpg",
     actors: [
       "Jay Baruchel",
       "America Ferrera",
@@ -60,7 +60,7 @@ let movies = [
     _id: 4,
     title: "Interstellar",
     year: 2014,
-    image: "interstellar.jpg",
+    image: "images/interstellar.jpg",
     actors: [
       "Matthew McConaughey",
       "Anne Hathaway",
@@ -74,7 +74,7 @@ let movies = [
     _id: 5,
     title: "Spider-Man: Across the Spiderverse",
     year: 2023,
-    image: "spiderverse.jpg",
+    image: "images/spiderverse.jpg",
     actors: [
       "Shameik Moore",
       "Hailee Steinfeld",

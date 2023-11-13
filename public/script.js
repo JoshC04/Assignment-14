@@ -53,7 +53,7 @@ const displayMovieDetails = (movie) => {
   moviesDisplay.appendChild(img);
 
   const length = document.createElement("p");
-  length.innerHTML = "Length: " + movie.length;
+  length.innerHTML = "Length: " + movie.length+ "minutes";
   moviesDisplay.appendChild(length);
 
   const year = document.createElement("p");
