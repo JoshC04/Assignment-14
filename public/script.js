@@ -92,7 +92,7 @@ const populateEditForm = (movie) => {};
 
 const addOrEditMovie = async (e) => {
   e.preventDefault();
-  const form = document.querySelector("add-or-edit");
+  const form = document.querySelector("#add-or-edit");
   const formData = new FormData(form);
   let response;
 
