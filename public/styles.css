@@ -24,7 +24,11 @@ li {
 }
 
 a {
-  list-style-type: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .movie-section {
@@ -35,7 +39,7 @@ a {
 }
 
 .movie-title {
-  
+
 }
 .movie-title:hover {
   font-weight: bolder;
