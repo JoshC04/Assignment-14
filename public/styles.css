@@ -6,6 +6,13 @@ body {
   background-color: #9FE5C2;
   padding: 10px;
   border-radius: 5px;
+  max-width: 45%;
+}
+#movies-display {
+  background-color: #9FE5C2;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 45%;
 }
 
 .hidden {
@@ -36,13 +43,6 @@ a:hover {
   background-color: #CFCA4C;
   padding: 5px;
   border-radius: 5px;
-}
-
-.movie-title {
-
-}
-.movie-title:hover {
-  font-weight: bolder;
 }
 
 @media (min-width: 768px) {
