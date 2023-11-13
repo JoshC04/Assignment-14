@@ -83,6 +83,7 @@ a:hover {
     width: 45%;
   }
   #movies-display {
+    position: relative;
     width: 45%;
   }  
 
